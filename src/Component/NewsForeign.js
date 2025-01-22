@@ -1,50 +1,42 @@
 import React, { useState } from "react";
-import BlogSection from "./BlogSection";
 
 const ProductForen= () => {
   const podcasts = [
     {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/70e3/live/d54466e0-d5c8-11ef-ae89-45e6722c9041.jpg.webp",
-      title: "पुतिन को चुनौती देने वाले एलेक्सी नवेलनी को ज़हर दिए जाने की कहानी - विवेचना",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "Software Engineer - Full Stack Developer",
+        location: "Bangalore, India",
+        company: "Tech Solutions Inc.",
+        link: "/job-detail",
     },
     {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5d8f/live/6675cd30-d352-11ef-8ee5-5100e9033936.jpg.webp",
-      title: "बुद्ध की जन्मस्थली लुंबिनी यूनेस्को की संकटग्रस्त धरोहरों की सूची में क्यों जा सकती है",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "Data Analyst",
+        location: "Mumbai, India",
+        company: "DataCorp Pvt Ltd",
+        link: "/job-detail",
     },
     {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/70e3/live/d54466e0-d5c8-11ef-ae89-45e6722c9041.jpg.webp",
-      title: "पुतिन को चुनौती देने वाले एलेक्सी नवेलनी को ज़हर दिए जाने की कहानी - विवेचना",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
-    }, {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/70e3/live/d54466e0-d5c8-11ef-ae89-45e6722c9041.jpg.webp",
-      title: "पुतिन को चुनौती देने वाले एलेक्सी नवेलनी को ज़हर दिए जाने की कहानी - विवेचना",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "UI/UX Designer",
+        location: "Remote",
+        company: "Creative Minds Studio",
+        link: "/job-detail",
     },
     {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/70e3/live/d54466e0-d5c8-11ef-ae89-45e6722c9041.jpg.webp",
-      title: "पुतिन को चुनौती देने वाले एलेक्सी नवेलनी को ज़हर दिए जाने की कहानी - विवेचना",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "DevOps Engineer",
+        location: "Hyderabad, India",
+        company: "CloudSys Tech",
+        link: "/job-detail",
     },
     {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/70e3/live/d54466e0-d5c8-11ef-ae89-45e6722c9041.jpg.webp",
-      title: "पुतिन को चुनौती देने वाले एलेक्सी नवेलनी को ज़हर दिए जाने की कहानी - विवेचना",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "Product Manager",
+        location: "Delhi, India",
+        company: "InnovateX Pvt Ltd",
+        link: "/job-detail",
     },
-    {
-      image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/70e3/live/d54466e0-d5c8-11ef-ae89-45e6722c9041.jpg.webp",
-      title: "पुतिन को चुनौती देने वाले एलेक्सी नवेलनी को ज़हर दिए जाने की कहानी - विवेचना",
-      // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-      link: "#",
-    },
-
   ];
 
   // State to handle current page and the number of items per page
@@ -70,7 +62,7 @@ const ProductForen= () => {
     <section className="py-16 bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
       <div className="container mx-auto mt-32 px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-          विदेश
+          Jobs
         </h2>
         
         {/* Grid Layout for Cards */}
@@ -120,7 +112,7 @@ const ProductForen= () => {
         </div>
       </div>
     </section>
-    <BlogSection/>
+  
     </>
   );
 };

@@ -21,18 +21,18 @@ const Navbar = () => {
               alt="Logo"
             /> */}
             <span className="ml-2 font-bold text-lg uppercase text-red-800">
-              NationFirst9
+              LetsCode
             </span>
           </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <ul className="flex space-x-6 font-medium text-gray-700">
-              <li><a href="/" className="hover:text-blue-600 transition-colors">भारत</a></li>
-              <li><a href="/Foreign" className="hover:text-blue-600 transition-colors">विदेश</a></li>
-              <li><a href="/मनोरंजन" className="hover:text-blue-600 transition-colors">मनोरंजन</a></li>
-              <li><a href="/खेल" className="hover:text-blue-600 transition-colors">खेल</a></li>
-              <li><a href="/podcast" className="hover:text-blue-600 transition-colors">पॉडकास्ट</a></li>
+              <li><a href="/" className="hover:text-blue-600 transition-colors">Home</a></li>
+              <li><a href="/about" className="hover:text-blue-600 transition-colors">About</a></li>
+              <li><a href="/internship" className="hover:text-blue-600 transition-colors">Internship</a></li>
+              <li><a href="/Job" className="hover:text-blue-600 transition-colors">Jobs</a></li>
+            
             </ul>
           </nav>
 
@@ -83,11 +83,10 @@ const Navbar = () => {
             <div className="container mx-auto px-4 py-6">
               {/* Mobile Navigation */}
               <nav className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-3">
-                <a href="/" className="block text-lg font-medium text-gray-900 hover:text-blue-600">भारत</a>
-                <a href="/Foreign" className="block text-lg font-medium text-gray-900 hover:text-blue-600">विदेश</a>
-                <a href="/मनोरंजन" className="block text-lg font-medium text-gray-900 hover:text-blue-600">मनोरंजन</a>
-                <a href="/खेल" className="block text-lg font-medium text-gray-900 hover:text-blue-600">खेल</a>
-                <a href="/podcast" className="block text-lg font-medium text-gray-900 hover:text-blue-600">पॉडकास्ट</a>
+                <a href="/" className="block text-lg font-medium text-gray-900 hover:text-blue-600">Home</a>
+                <a href="/Foreign" className="block text-lg font-medium text-gray-900 hover:text-blue-600">About</a>
+                <a href="/मनोरंजन" className="block text-lg font-medium text-gray-900 hover:text-blue-600">Internship</a>
+                <a href="/खेल" className="block text-lg font-medium text-gray-900 hover:text-blue-600">Jobs</a>
               </nav>
             </div>
           </div>

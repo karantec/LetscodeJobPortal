@@ -3,27 +3,27 @@ import React, { useState } from "react";
 const PodcastSection = () => {
   const podcasts = [
     {
-      image: "https://img.youtube.com/vi/maF-veTzMIU/hqdefault.jpg",
-      title: "दिल्ली चुनाव में चिराग पासवान का चौंकाने वाला एलान LIVE",
-      videoUrl: "https://www.youtube.com/embed/maF-veTzMIU?si=oBe12uQlYOkYnPSw",
+      image: "https://img.youtube.com/vi/4KNJll5hv7o/hqdefault.jpg",
+      title: "How to Learn DSA in 2025 | Complete Roadmap | Java | Python | C++ | JavaScript",
+      videoUrl: "https://www.youtube.com/embed/4KNJll5hv7o?si=jwo-2bV6NUwpRmLY",
       link: "/detail",
     },
     {
-      image: "https://img.youtube.com/vi/maF-veTzMIU/hqdefault.jpg",
-      title: "दिल्ली चुनाव में चिराग पासवान का चौंकाने वाला एलान LIVE",
-      videoUrl: "https://www.youtube.com/embed/maF-veTzMIU?si=oBe12uQlYOkYnPSw",
+      image: "https://img.youtube.com/vi/4KNJll5hv7o/hqdefault.jpg",
+      title: "How to Learn DSA in 2025 | Complete Roadmap | Java | Python | C++ | JavaScript",
+      videoUrl: "https://www.youtube.com/embed/4KNJll5hv7o?si=jwo-2bV6NUwpRmLY",
       link: "/detail",
     },
     {
-      image: "https://img.youtube.com/vi/maF-veTzMIU/hqdefault.jpg",
-      title: "दिल्ली चुनाव में चिराग पासवान का चौंकाने वाला एलान LIVE",
-      videoUrl: "https://www.youtube.com/embed/maF-veTzMIU?si=oBe12uQlYOkYnPSw",
+      image: "https://img.youtube.com/vi/4KNJll5hv7o/hqdefault.jpg",
+      title: "How to Learn DSA in 2025 | Complete Roadmap | Java | Python | C++ | JavaScript",
+      videoUrl: "https://www.youtube.com/embed/4KNJll5hv7o?si=jwo-2bV6NUwpRmLY",
       link: "/detail",
     },
     {
-      image: "https://img.youtube.com/vi/maF-veTzMIU/hqdefault.jpg",
-      title: "दिल्ली चुनाव में चिराग पासवान का चौंकाने वाला एलान LIVE",
-      videoUrl: "https://www.youtube.com/embed/maF-veTzMIU?si=oBe12uQlYOkYnPSw",
+      image: "https://img.youtube.com/vi/4KNJll5hv7o/hqdefault.jpg",
+      title: "How to Learn DSA in 2025 | Complete Roadmap | Java | Python | C++ | JavaScript",
+      videoUrl: "https://www.youtube.com/embed/4KNJll5hv7o?si=jwo-2bV6NUwpRmLY",
       link: "/detail",
     },
   ];
@@ -88,7 +88,7 @@ const PodcastSection = () => {
                 <div className="p-4">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{item.title}</h3>
                   <a href={item.link} className="text-orange-500 hover:underline font-semibold">
-                    और पढ़ें
+                    Read More
                   </a>
                 </div>
               </div>
@@ -98,10 +98,9 @@ const PodcastSection = () => {
 
         {/* Text Section */}
         <div className="lg:w-1/4 w-full lg:ml-6 mt-8 lg:mt-0 text-center lg:text-left">
-          <h3 className="text-2xl font-bold mt-20 text-gray-800">और पॉडकास्ट पढ़ा</h3>
+          <h3 className="text-2xl font-bold mt-20 text-gray-800">Read More About out Channel</h3>
           <p className="text-gray-600">
-            हमारे अन्य पॉडकास्ट पर भी नजर डालें। आप विभिन्न विषयों पर रोचक और उपयोगी
-            सामग्री पा सकते हैं।
+          Read More About out Channel
           </p>
           <a
             href="/more-podcasts"

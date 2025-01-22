@@ -5,7 +5,7 @@ const BreakingNews = () => {
     <div className="bg-red-600 flex items-center">
       {/* Breaking Label */}
       <div className="bg-red-500 text-white font-bold px-2 py-1">
-        BREAKING
+        BREAKING Jobs
       </div>
       {/* Marquee Section */}
       <div className="overflow-hidden whitespace-nowrap">

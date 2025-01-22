@@ -6,13 +6,14 @@ const Footer = () => {
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {/* Contact Information */}
         <div>
-          <h2 className="text-orange-500 font-medium">Contact Us</h2>
+          <h2 className="text-blue-600 font-medium">Contact Us</h2>
           <p className="mt-4 text-gray-900 text-xl font-medium sm:text-2xl">
-            news@nationfirst.com
+            support@jobportal.com
           </p>
           <ul className="mt-4 text-sm text-gray-700 space-y-1">
-            <li>Monday to Friday: 9am - 6pm</li>
-            <li>Weekend: Closed</li>
+            <li>Monday to Friday: 9am - 7pm</li>
+            <li>Saturday: 10am - 4pm</li>
+            <li>Sunday: Closed</li>
           </ul>
           <ul className="mt-6 flex gap-4">
             {[
@@ -43,18 +44,18 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Quick Links */}
+        {/* Job Seekers */}
         <div>
-          <h2 className="text-orange-500 font-medium">Quick Links</h2>
+          <h2 className="text-blue-600 font-medium">Job Seekers</h2>
           <ul className="mt-6 text-sm text-gray-700 space-y-4">
             {[
-              { name: "Home", link: "/" },
-              { name: "About Us", link: "/" },
-              { name: "Contact Us", link: "/" },
-              { name: "Advertise", link: "/" },
+              { name: "Browse Jobs", link: "/jobs" },
+              { name: "Upload Resume", link: "/upload-resume" },
+              { name: "Job Alerts", link: "/job-alerts" },
+              { name: "Career Advice", link: "/career-advice" },
             ].map(({ name, link }, idx) => (
               <li key={idx}>
-                <a href={link} className="transition hover:text-orange-500">
+                <a href={link} className="transition hover:text-blue-600">
                   {name}
                 </a>
               </li>
@@ -62,18 +63,18 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Categories */}
+        {/* Employers */}
         <div>
-          <h2 className="text-orange-500 font-medium">Categories</h2>
+          <h2 className="text-blue-600 font-medium">Employers</h2>
           <ul className="mt-6 text-sm text-gray-700 space-y-4">
             {[
-              { name: "भारत", link: "/#india" },
-              { name: "विदेश", link: "/#world" },
-              { name: "मनोरंजन", link: "/#entertainment" },
-              { name: "खेल", link: "/#sports" },
+              { name: "Post a Job", link: "/post-job" },
+              { name: "Search Resumes", link: "/search-resumes" },
+              { name: "Employer Dashboard", link: "/employer-dashboard" },
+              { name: "Pricing", link: "/pricing" },
             ].map(({ name, link }, idx) => (
               <li key={idx}>
-                <a href={link} className="transition hover:text-orange-500">
+                <a href={link} className="transition hover:text-blue-600">
                   {name}
                 </a>
               </li>
@@ -83,15 +84,15 @@ const Footer = () => {
 
         {/* Policies */}
         <div>
-          <h2 className="text-orange-500 font-medium">Policies</h2>
+          <h2 className="text-blue-600 font-medium">Policies</h2>
           <ul className="mt-6 text-sm text-gray-700 space-y-4">
             {[
-              { name: "Terms & Conditions", link: "/" },
-              { name: "Privacy Policy", link: "/" },
-              { name: "Cookies", link: "/" },
+              { name: "Terms of Service", link: "/terms" },
+              { name: "Privacy Policy", link: "/privacy" },
+              { name: "Refund Policy", link: "/refund-policy" },
             ].map(({ name, link }, idx) => (
               <li key={idx}>
-                <a href={link} className="transition hover:text-orange-500">
+                <a href={link} className="transition hover:text-blue-600">
                   {name}
                 </a>
               </li>
@@ -103,7 +104,7 @@ const Footer = () => {
       {/* Footer Bottom Section */}
       <div className="mt-12 border-t border-gray-200 pt-6">
         <p className="text-xs text-gray-500 text-center">
-          &copy; 2024 NationFirst News. All rights reserved.
+          &copy; 2024 JobPortal. All rights reserved.
         </p>
       </div>
     </footer>

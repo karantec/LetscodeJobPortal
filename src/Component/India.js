@@ -1,38 +1,42 @@
 import React, { useState } from "react";
-import BlogSection from "./BlogSection";
 
 const ProductIndia= () => {
   const podcasts = [
-      {
-        image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1aed/live/2d7ec1a0-d634-11ef-9fd6-0be88a764111.jpg.webp",
-        title: "अमेरिका में टिकटॉक प्रतिबंध से पहले हुआ बंद, क्या भारत में पाबंदी के पीछे भी यही वजह थी",
-        // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-        link: "#",
-      },
-      {
-        image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/vivo/live/images/2025/1/19/838c1834-b063-4bd5-a586-8e248896fd35.jpg.webp",
-        title: "सैफ़ अली ख़ान पर हमला मामला: अभियुक्त को 5 दिन की पुलिस कस्टडी में भेजा गया",
-        // description: "विज्ञान की नई खोजों और नवाचारों पर विशेष चर्चा।",
-        link: "#",
-      },
-      {
-        image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1aed/live/2d7ec1a0-d634-11ef-9fd6-0be88a764111.jpg.webp",
-        title: "अमेरिका में टिकटॉक प्रतिबंध से पहले हुआ बंद, क्या भारत में पाबंदी के पीछे भी यही वजह थी",
-        // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-        link: "#",
-      },
-      {
-        image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/vivo/live/images/2025/1/19/838c1834-b063-4bd5-a586-8e248896fd35.jpg.webp",
-        title: "सैफ़ अली ख़ान पर हमला मामला: अभियुक्त को 5 दिन की पुलिस कस्टडी में भेजा गया",
-        // description: "विज्ञान की नई खोजों और नवाचारों पर विशेष चर्चा।",
-        link: "#",
-      },
-      {
-        image: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1aed/live/2d7ec1a0-d634-11ef-9fd6-0be88a764111.jpg.webp",
-        title: "अमेरिका में टिकटॉक प्रतिबंध से पहले हुआ बंद, क्या भारत में पाबंदी के पीछे भी यही वजह थी",
-        // description: "तकनीक और भविष्य के बारे में हमारी नई पॉडकास्ट सुनें।",
-        link: "#",
-      },
+    {
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "Software Engineer - Full Stack Developer",
+        location: "Bangalore, India",
+        company: "Tech Solutions Inc.",
+        link: "/job-detail",
+    },
+    {
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "Data Analyst",
+        location: "Mumbai, India",
+        company: "DataCorp Pvt Ltd",
+        link: "/job-detail",
+    },
+    {
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "UI/UX Designer",
+        location: "Remote",
+        company: "Creative Minds Studio",
+        link: "/job-detail",
+    },
+    {
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "DevOps Engineer",
+        location: "Hyderabad, India",
+        company: "CloudSys Tech",
+        link: "/job-detail",
+    },
+    {
+        image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202010/jobs_660_130920052343_291020052310.jpg",
+        title: "Product Manager",
+        location: "Delhi, India",
+        company: "InnovateX Pvt Ltd",
+        link: "/job-detail",
+    },
       
     
   ];
@@ -60,7 +64,7 @@ const ProductIndia= () => {
     <section className="py-16 bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
       <div className="container mx-auto mt-32 px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-          विदेश
+          Internship
         </h2>
         
         {/* Grid Layout for Cards */}
@@ -110,7 +114,7 @@ const ProductIndia= () => {
         </div>
       </div>
     </section>
-    <BlogSection/>
+    
     </>
   );
 };
